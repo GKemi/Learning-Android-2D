@@ -306,6 +306,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1152846950}
+  rotationSpeed: 0
+  acceleration: 1
 --- !u!68 &1555102288
 EdgeCollider2D:
   m_ObjectHideFlags: 0
