@@ -36,7 +36,7 @@ AudioMixerGroupController:
   m_Pitch: 44e40ce71dfa24fc2a33029be9864aa5
   m_Effects:
   - {fileID: 24400004}
-  m_UserColorIndex: 0
+  m_UserColorIndex: 6
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
@@ -61,7 +61,24 @@ AudioMixerSnapshotController:
   m_Name: Snapshot
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 5bcb1e582111e4b7787f8fecdb9ff1f9
-  m_FloatValues: {}
+  m_FloatValues:
+    9247d140b90ff41e7b00ccef9158d37e: 14
+    2e67f670638114879b24a51ee2b72309: 1
+    93625e91ae80149dbb68ca3c2f7e729f: 0
+    1c0a7a027aa64466da10de2a03cf9755: 0.517
+    625b1f92bfd114dfabdc8e5a024706a2: 1.01
+    8095bf838e21446e384b39a75f73ca66: 13.6
+    cd7bfce421d1d4b16ac0bb9b46ade803: -6556
+    a936c815e970f4f4ab9f543917e3a688: 0.672
+    d8761ba7b2a234149aa12d3f08be852d: 0
+    44e40ce71dfa24fc2a33029be9864aa5: 1
+    c42d83098e9d84c6fb9568efdc8b472b: 284
+    713afd6aae4334d9ca3ae8d297f6f332: 459
+    b0f19f3e8566a4f1d87078c172f01915: 124
+    0f4a837ec65944aedafdee78d7e26949: 6.23
+    673e359eaa86c4e18b9fe05f8de2ebdb: -2997
+    5e69dcbfc8b65466a82e62f772dc371b: 0.324
+    8e0ce5cfdd38b44afbdc551db5aca5b8: 0
   m_TransitionOverrides: {}
 --- !u!243 &243507499416525624
 AudioMixerGroupController:
@@ -76,7 +93,8 @@ AudioMixerGroupController:
   m_Pitch: 2e67f670638114879b24a51ee2b72309
   m_Effects:
   - {fileID: 244170951098666432}
-  m_UserColorIndex: 0
+  - {fileID: 244763320214331714}
+  m_UserColorIndex: 3
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
@@ -93,3 +111,24 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &244763320214331714
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 834a7d3ba0dd840c49ade1cfbe8b3146
+  m_EffectName: Flange
+  m_MixLevel: 1b3d51fddbe674d3fa0941d4050b44d7
+  m_Parameters:
+  - m_ParameterName: Drymix
+    m_GUID: e08e09f3bdafb40feb8d8a4a8c89126e
+  - m_ParameterName: Wetmix
+    m_GUID: 02fe7fdbda51044909721110f2a0c660
+  - m_ParameterName: Depth
+    m_GUID: 36b054cd9aa6a4819bc654961b867237
+  - m_ParameterName: Rate
+    m_GUID: 87c9fe9b6cdd94ae1990c4ed2bf62e8a
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 1

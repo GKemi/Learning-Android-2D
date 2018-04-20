@@ -52,7 +52,7 @@ public class MainSquareBehaviour : MonoBehaviour {
 			player.Rotate (new Vector3 (1, 0, -1) * rotationSpeed);
 		}
 
-		Debug.Log (rotationSpeed);
+//		Debug.Log (rotationSpeed);
 
 	}
 

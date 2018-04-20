@@ -1,6 +1,4 @@
 Android
-PlayerPath?
-/Users/work/Learning Android 2D/lalala.apk
 SceneListBegin?
 Assets/Level01.unity
 SceneListEnd?
@@ -148,4 +146,5 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-baee36a0505dd9565eca9a22039e29f0 Assembly-CSharp.dll:.Oscillator
+9b1ce8a1d8e8b8174358b626a81c8ee2 Assembly-CSharp-firstpass.dll:.Hv_testing_AudioLib
+93720ca0090de16c06f9c332a4cf12e4 Assembly-CSharp.dll:.AudioControlScript
