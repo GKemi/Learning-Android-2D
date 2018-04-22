@@ -130,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HeavyScript: {fileID: 243402327}
+  behaviour: {fileID: 0}
 --- !u!61 &243402324
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -433,7 +434,7 @@ Prefab:
     - target: {fileID: 50936499947736188, guid: 34f60098f7ed94523aa29229e59c11ce,
         type: 2}
       propertyPath: m_LinearDrag
-      value: 7
+      value: 1.13
       objectReference: {fileID: 0}
     - target: {fileID: 4806965650808810, guid: 34f60098f7ed94523aa29229e59c11ce, type: 2}
       propertyPath: m_LocalScale.x
